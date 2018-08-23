@@ -36,16 +36,16 @@ user_list=list(user_choice.split(','))
 if "A" in user_list and "O" in user_list and "F" in user_list and "I" in user_list:
 	print("Congratulations!!! You will be able to make to the moonbase safely. You are ready for 2049 ;P")
 else:
-	print("Oops! You didn't pick the right item. Sorry, You won't be able to make it to the moon base safely :(")
+	print("Oops! You didn't pick the right items. Sorry, You won't be able to make it to the moonbase safely :(")
 
 if "A" not in user_list:
-	print("Without a litre of water a day, you will definitely dehydrate :(")
+	print("Without a litre of water a day, you will definitely dehydrate.")
 if "O" not in user_list:
-	print("Without oxygen, you won't have anything to breathe in :(")
+	print("Without oxygen, you won't have anything to breathe in.")
 if "F" not in user_list:
-	print("Without solar panels, your lunar rover will not have enough power to make it to the base :(")
+	print("Without solar panels, your lunar rover will not have enough power to make it to the base .")
 if "I" not in user_list:
-	print("Without sufficient food, you won't be able to make it to the base. How you will get energy to drive the rover? :(")
+	print("Without sufficient food, you won't be able to make it to the base. How you will get energy to drive the rover?")
 if "B" in user_list:
 	print("What on moon would you do with shampoo on moon?! Must be having a flare for washing your hair on moon ...")
 if "C" in user_list:
