@@ -17,7 +17,8 @@ items = [
 "P: First aid kit",
 "Q: Solar powered FM walkie talkie",
 "R: Magnetic Compass",
-"S: Box of Matches"
+"S: Box of Matches",
+"T: Portable heating unit "
 ]
 
 print("It is the year 2049. You are on a solo mission to restock the base on the moon with soil and seeds to grow more plants.")
@@ -76,6 +77,8 @@ if "R" in user_list:
 	print("Compass: Useless since there is no magnetic field. Not worthy bringing it.")
 if "S" in user_list:
 	print("Box of matches : Useless as there is nothing to burn.")
+if "T" in user_list:
+	print("Portable heating unit : Not needed unless you are on the dark side.")
 
 
 
